@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.ganesh.junitlab.AppTest
+Test set: com.ganesh.junitlab.AssertionsTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.ganesh.junitlab.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in com.ganesh.junitlab.AssertionsTest
