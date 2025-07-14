@@ -1,0 +1,12 @@
+spring-learn/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── cognizant/
+│   │   │           └── springlearn/
+│   │   │               ├── SpringLearnApplication.java
+│   │   │               └── controller/
+│   │   │                   └── HelloController.java
+│   │   └── resources/
+│   │       └── application.properties

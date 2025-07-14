@@ -1,0 +1,7 @@
+http://localhost:8083/countries/in
+
+JSON Response
+{
+  "code": "IN",
+  "name": "India"
+}

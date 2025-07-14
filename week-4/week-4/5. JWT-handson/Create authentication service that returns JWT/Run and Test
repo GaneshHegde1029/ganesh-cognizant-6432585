@@ -1,0 +1,7 @@
+ Curl Request:
+curl -s -u user:pwd http://localhost:8090/authenticate
+
+JSON Response:
+{
+  "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiaWF0IjoxNjkwODMx..."
+}

@@ -1,0 +1,13 @@
+Run the application.
+Open a browser or Postman and visit:
+GET http://localhost:8083/country
+
+✅ Response:
+{
+  "code": "IN",
+  "name": "India"
+}
+
+✅ Console Log:
+INFO  com.cognizant.springlearn.controller.CountryController - START - getCountryIndia()
+INFO  com.cognizant.springlearn.controller.CountryController - END - getCountryIndia()
