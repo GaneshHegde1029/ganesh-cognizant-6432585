@@ -1,51 +1,64 @@
-# ganesh-cognizant
-📘 Overview
-This repository contains hands-on Java exercises designed as part of the DN 4.0 Full Stack Engineer (FSE) learning path at Cognizant (CTS). The goal is to reinforce practical understanding of key software development concepts, including design patterns, algorithms, and data structures, through structured coding assignments.
+# 🧠 Ganesh - Cognizant DN 4.0 Java Hands-On Repository
 
-🗂️ Contents
-🔷 Design Patterns and Principles
-Covers object-oriented design principles and classic design patterns:
+Welcome to the **Cognizant DN 4.0 Full Stack Engineer (FSE)** Java Hands-On repository!  
+This repo contains practical Java exercises focusing on **design patterns**, **algorithms**, and **data structures**, aligned with the **CTS DN 4.0** training track.
 
-Singleton Pattern – Consistent logging utility with a single instance
-Factory Method Pattern – Document creation (Word, PDF, Excel)
-Builder Pattern – Constructing complex Computer objects
-Adapter Pattern – Payment processing system integration
-Decorator Pattern – Notification system (Email, SMS, Slack)
-Proxy Pattern – Lazy-loaded remote image viewer
-Observer Pattern – Stock market monitoring updates
-Strategy Pattern – Runtime selection of payment strategies
-Command Pattern – Home automation with on/off commands
-MVC Pattern – Web app for managing student records
-Dependency Injection – Customer service and repository layering
-🔷 Algorithms and Data Structures
-Focuses on applying algorithmic techniques to real-world systems:
+---
 
-Inventory Management System – CRUD operations with HashMap
-E-commerce Search Function – Linear and Binary Search with time complexity analysis
-Sorting Customer Orders – Bubble Sort and Quick Sort for order prioritization
-Employee Management System – Array operations for employee records
-Task Management System – Linked List implementation for task tracking
-Library Management System – Searching books with linear and binary search
-Financial Forecasting – Recursive prediction of future values using growth rates
-🎯 Learning Objectives
-Understand and implement popular design patterns
-Practice building scalable applications with clean OOP design
-Analyze and optimize solutions using time complexity (Big O notation)
-Improve problem-solving skills with data structures and algorithms
-✅ How to Use This Repo
-Clone the repository
-Open each project folder in your favorite IDE (e.g., Eclipse, IntelliJ)
-Read the README or comments inside each exercise
-Run test classes to explore functionality and validate output
-📌 Technologies Used
-Java 8+
-OOP Principles
-Collections Framework
-Algorithms & Recursion
-Design Pattern Implementations
-📚 Reference Materials
-Java Design Patterns (GoF)
-CTS DN 4.0 Training Guide
-Data Structures & Algorithms in Java
-🏷️ Tags
-#Java #CTS #DN4.0 #DesignPatterns #Algorithms #DataStructures #FullStackEngineer #HandsOn
+## 📘 Overview
+
+This repository is structured to support your understanding of:
+
+- **Object-Oriented Programming (OOP)**
+- **Core Java concepts**
+- **Design Patterns (GoF)**
+- **Data Structures & Algorithms**
+- **Real-world coding scenarios** in a full-stack engineering context
+
+---
+
+## 🗂️ Project Structure
+
+### 🔷 1. Design Patterns & Principles
+
+Implementations of classic design patterns and OOP principles:
+
+| Pattern             | Description                                           |
+|---------------------|-------------------------------------------------------|
+| **Singleton**       | Logging utility ensuring a single instance            |
+| **Factory Method**  | Create different document types (PDF, Word, Excel)    |
+| **Builder**         | Construct complex `Computer` objects step-by-step     |
+| **Adapter**         | Integrate different payment systems                   |
+| **Decorator**       | Flexible notification system (Email, SMS, Slack)     |
+| **Proxy**           | Lazy loading for remote image rendering              |
+| **Observer**        | Stock price tracker using event subscriptions        |
+| **Strategy**        | Switch payment modes at runtime                      |
+| **Command**         | Home automation with programmable commands           |
+| **MVC**             | Web-based student management app                     |
+| **Dependency Injection** | Decouple customer service layers                |
+
+---
+
+### 🔷 2. Algorithms & Data Structures
+
+Java solutions to algorithmic problems using efficient data structures:
+
+| Module               | Description                                          |
+|----------------------|------------------------------------------------------|
+| **Inventory Management** | CRUD using `HashMap`                          |
+| **Search Function**      | Linear vs Binary Search with time complexity    |
+| **Sorting Orders**       | Bubble Sort and Quick Sort comparison           |
+| **Employee Records**     | Array operations                                |
+| **Task Manager**         | Custom `LinkedList` for task tracking           |
+| **Library System**       | Efficient book searching                        |
+| **Financial Forecasting**| Recursive logic for future value prediction     |
+
+---
+
+## 🎯 Learning Goals
+
+- ✅ Understand and apply **key design patterns**
+- ✅ Write **clean, scalable Java code** using OOP principles
+- ✅ Master **Big O** and **time complexity** analysis
+- ✅ Improve your **problem-solving** with hands-on examples
+- ✅ Build **real-world-ready components** for enterprise systems
