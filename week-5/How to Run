@@ -1,0 +1,2 @@
+1.Run AccountApplication (port 8080).
+2.Then run LoanApplication (port 8081).
