@@ -1,0 +1,15 @@
+import React from 'react';
+import './App.css';
+import CohortDetails from './CohortDetails';
+
+function App() {
+  return (
+    <div className="App">
+      <h2>My Academy Cohorts</h2>
+      <CohortDetails name="React Bootcamp" batch="July 2025" status="ongoing" />
+      <CohortDetails name="Angular Mastery" batch="June 2025" status="completed" />
+    </div>
+  );
+}
+
+export default App;

@@ -1,0 +1,4 @@
+Open terminal and run:
+npx create-react-app blogapp
+Navigate into the app directory:
+cd blogapp

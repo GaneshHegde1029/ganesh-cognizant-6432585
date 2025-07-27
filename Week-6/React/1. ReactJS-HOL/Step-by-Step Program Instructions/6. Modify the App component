@@ -1,0 +1,14 @@
+Open the file:
+myfirstreact/src/App.js
+Delete all the default content and replace it with:
+import React from 'react';
+
+function App() {
+  return (
+    <div>
+      <h1>Welcome to the first session of React</h1>
+    </div>
+  );
+}
+
+export default App;

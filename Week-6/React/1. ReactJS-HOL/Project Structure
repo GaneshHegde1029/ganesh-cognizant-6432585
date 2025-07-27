@@ -1,0 +1,7 @@
+myfirstreact/
+├── node_modules/
+├── public/
+├── src/
+│   └── App.js       // Edited to show welcome message
+├── package.json
+└── README.md
