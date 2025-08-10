@@ -1,0 +1,25 @@
+Office Space, at Affordable Range
+
+✅ Office 1
+🖼️ (Image placeholder)
+Name: DBS
+Rent: ₹50000 ← (Displayed in 🔴 red, because rent ≤ ₹60000)
+Address: Chennai
+
+✅ Office 2
+🖼️ (Image placeholder)
+Name: Regus
+Rent: ₹70000 ← (Displayed in 🟢 green, because rent > ₹60000)
+Address: Bangalore
+
+✅ Office 3
+🖼️ (Image placeholder)
+Name: SmartWorks
+Rent: ₹60000 ← (Displayed in 🔴 red)
+Address: Mumbai
+
+✅ Office 4
+🖼️ (Image placeholder)
+Name: WeWork
+Rent: ₹80000 ← (Displayed in 🟢 green)
+Address: Hyderabad

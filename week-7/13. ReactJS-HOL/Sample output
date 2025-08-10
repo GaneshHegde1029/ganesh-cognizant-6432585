@@ -1,0 +1,45 @@
+Initial Page Load:
+Book Details
+Master React
+₹670
+Deep Dive into Angular 11
+₹800
+Mongo Essentials
+₹450
+
+[Toggle Blog] [Toggle Course]
+
+Blog Details
+React is a popular front-end library maintained by Meta.
+
+After Clicking [Toggle Course]:
+Book Details
+Master React
+₹670
+Deep Dive into Angular 11
+₹800
+Mongo Essentials
+₹450
+
+[Toggle Blog] [Toggle Course]
+
+Blog Details
+React is a popular front-end library maintained by Meta.
+
+Course Details
+Full Stack Developer Program using MERN Stack.
+
+
+After Clicking [Toggle Blog] (to hide blog):
+Book Details
+Master React
+₹670
+Deep Dive into Angular 11
+₹800
+Mongo Essentials
+₹450
+
+[Toggle Blog] [Toggle Course]
+
+Course Details
+Full Stack Developer Program using MERN Stack.

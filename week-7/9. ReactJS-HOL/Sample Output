@@ -1,0 +1,48 @@
+✅ When flag = true:
+List of Players
+- Rohit - 95
+- Virat - 68
+- Gill - 74
+- Surya - 42
+- Ishan - 33
+- Rahul - 89
+- Hardik - 56
+- Jadeja - 25
+- Shami - 15
+- Bumrah - 20
+- Kuldeep - 38
+
+--------------------------------------
+
+List of Players having Scores Less than 70
+- Virat - 68
+- Surya - 42
+- Ishan - 33
+- Hardik - 56
+- Jadeja - 25
+- Shami - 15
+- Bumrah - 20
+- Kuldeep - 38
+
+❌ When flag = false:
+Indian Team
+Odd Players
+- Gill
+- Surya
+- Jadeja
+
+--------------------------------------
+
+Even Players
+- Rohit
+- Kohli
+- Hardik
+
+--------------------------------------
+
+List of Indian Players Merged:
+- Ishan
+- Pant
+- Sanju
+- Pujara
+- Rahane

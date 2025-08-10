@@ -1,0 +1,12 @@
+ticketbookingapp/
+├── src/
+│   ├── components/
+│   │   ├── Greeting.js
+│   │   ├── LoginButton.js
+│   │   ├── LogoutButton.js
+│   │   ├── UserGreeting.js
+│   │   └── GuestGreeting.js
+│   ├── App.js
+│   └── index.css
+├── package.json
+└── README.md

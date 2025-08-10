@@ -1,0 +1,11 @@
+1.Create React App (if not already):
+npx create-react-app cricketapp
+cd cricketapp
+
+2.Create folders:
+mkdir src/components
+
+3.Add the above files into the respective src/components/ directory and replace src/App.js.
+
+4.Start the app:
+npm start

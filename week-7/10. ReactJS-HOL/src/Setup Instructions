@@ -1,0 +1,13 @@
+1.Create app:
+npx create-react-app officespacerentalapp
+cd officespacerentalapp
+
+2.Create component folder and files:
+mkdir src/components
+touch src/components/OfficeList.js
+touch src/components/OfficeList.css
+
+3.Paste the code into respective files and replace App.js with the one above.
+
+4.Start app:
+npm start

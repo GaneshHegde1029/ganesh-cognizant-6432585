@@ -1,0 +1,11 @@
+1.Create the app:
+npx create-react-app eventexamplesapp
+cd eventexamplesapp
+
+2.Create components directory and add CurrencyConvertor.js:
+mkdir src/components
+
+3.Paste the code into App.js and CurrencyConvertor.js.
+
+4.Run it:
+npm start

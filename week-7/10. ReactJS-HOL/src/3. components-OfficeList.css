@@ -1,0 +1,14 @@
+.textRed {
+  color: red;
+}
+
+.textGreen {
+  color: green;
+}
+
+.office-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+}
