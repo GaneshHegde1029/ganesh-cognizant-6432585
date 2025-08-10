@@ -1,0 +1,8 @@
+Go to GitHub or GitLab, create a new repository named GitDemo.
+
+Copy the remote URL (e.g., https://github.com/yourusername/GitDemo.git)
+
+Now add and push:
+git remote add origin https://github.com/yourusername/GitDemo.git
+git pull origin master --allow-unrelated-histories
+git push -u origin master

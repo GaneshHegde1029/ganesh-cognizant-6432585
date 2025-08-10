@@ -1,0 +1,12 @@
+1.Ensures a Git repo exists — if not, it runs git init
+
+2.Creates:
+*debug.log file
+*log/ folder containing system.log
+
+3.Appends .gitignore rules:
+*.log
+log/
+
+4.Adds .gitignore to staging and commits
+5.Shows git status to verify .log files and log/ folder are ignored

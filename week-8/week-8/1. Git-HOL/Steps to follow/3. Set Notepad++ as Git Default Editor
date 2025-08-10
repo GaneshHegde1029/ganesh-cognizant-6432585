@@ -1,0 +1,18 @@
+Step 1: Check if Notepad++ is available
+notepad++
+
+If it says "command not found", you need to add Notepad++ to your system's PATH.
+
+How to Add to PATH (Windows):
+1.Go to Control Panel > System > Advanced System Settings
+2.Click Environment Variables
+3.Under User Variables, edit the Path and add the Notepad++ installation path (e.g., C:\Program Files\Notepad++)
+
+Now restart Git Bash and check again:
+notepad++
+
+Step 2: Set Notepad++ as Git editor
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+
+To verify:
+git config --global --edit

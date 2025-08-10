@@ -1,0 +1,29 @@
+-------------------------------------------
+🚀 Git Hands-On Lab: Cleanup and Push to Remote
+-------------------------------------------
+
+📍 Current branch: master
+🔍 Checking if working directory is clean...
+✅ Working directory is clean.
+
+📜 Listing all branches (local & remote):
+* master
+  remotes/origin/master
+  remotes/origin/dev
+
+⬇️  Pulling latest changes from remote 'origin'...
+Already up to date.
+
+⬆️  Pushing local commits to remote 'origin'...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 456 bytes | 456.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/yourusername/yourrepo.git
+   3c5e8b2..d1e2f4a  master -> master
+
+✅ Push complete. Verifying remote changes...
+💡 Please check your remote repository on GitHub or GitLab to confirm.
+

@@ -1,0 +1,18 @@
+Check status:
+git status
+
+Track the file:
+git add welcome.txt
+
+Commit the change (this opens Notepad++):
+git commit
+
+Add a multi-line message like:
+Initial commit
+- Added welcome.txt
+- First version
+
+Save and close.
+
+Check the status again:
+git status

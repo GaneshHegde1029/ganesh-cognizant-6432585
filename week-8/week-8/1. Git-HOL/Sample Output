@@ -1,0 +1,63 @@
+-------------------------------------------
+🚀 Git Hands-On Lab: Automated Setup Script
+-------------------------------------------
+
+🛠️  Setting up Git configuration...
+✅ Git configured with:
+user.name=Your Name
+user.email=your.email@example.com
+
+📝 Checking if Notepad++ is available...
+✅ Notepad++ found
+
+🖊️  Setting Notepad++ as default Git editor...
+
+📁 Creating GitDemo directory...
+📦 Initializing Git repository...
+Initialized empty Git repository in C:/Users/YourName/GitDemo/.git/
+
+📄 Creating welcome.txt...
+
+📊 Checking Git status...
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	welcome.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+➕ Adding file to staging area...
+
+📝 Committing file...
+[master (root-commit) e9d3f04] Initial commit: Added welcome.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 welcome.txt
+
+🌐 Setting up remote GitHub repository...
+Enter your GitHub repository URL: https://github.com/yourusername/GitDemo.git
+
+⬇️  Pulling from remote (to avoid conflicts)...
+warning: no common commits
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From https://github.com/yourusername/GitDemo
+ * branch            master     -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+
+⬆️  Pushing to remote repository...
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (5/5), 515 bytes | 515.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/yourusername/GitDemo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+✅ Git Hands-On Lab setup complete!

@@ -1,0 +1,2 @@
+chmod +x Git-Ignore-Setup.sh
+./Git-Ignore-Setup.sh

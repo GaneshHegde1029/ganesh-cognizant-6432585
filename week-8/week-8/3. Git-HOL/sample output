@@ -1,0 +1,62 @@
+-------------------------------------------
+🚀 Git Hands-On Lab: Branching and Merging
+-------------------------------------------
+
+⚠️  No Git repository found in this directory.
+📦 Initializing Git repository...
+Initialized empty Git repository in /home/user/GitBranchMergeDemo/.git/
+[master (root-commit) 4a7c2e1] Initial commit: Added master.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 master.txt
+
+🌱 Creating new branch: GitNewBranch
+📜 Listing branches:
+* master
+  GitNewBranch
+
+🔄 Switching to GitNewBranch...
+Switched to branch 'GitNewBranch'
+
+📝 Creating a new file in branch...
+[GitNewBranch 8c1e9d5] Added branch_file.txt in GitNewBranch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branch_file.txt
+
+📊 Status in GitNewBranch:
+On branch GitNewBranch
+nothing to commit, working tree clean
+
+🔄 Switching back to master...
+Switched to branch 'master'
+
+🔍 Differences between master and GitNewBranch (CLI):
+diff --git a/branch_file.txt b/branch_file.txt
+new file mode 100644
+index 0000000..c8f2c56
+--- /dev/null
++++ b/branch_file.txt
+@@
++This is a file in GitNewBranch branch.
+
+⚠️  P4Merge not found. Skipping visual diff.
+
+🔀 Merging GitNewBranch into master...
+Merge made by the 'recursive' strategy.
+ branch_file.txt | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branch_file.txt
+
+📜 Commit history (graph view):
+*   5fbb9c3 (HEAD -> master) Merged GitNewBranch into master
+|\  
+| * 8c1e9d5 (GitNewBranch) Added branch_file.txt in GitNewBranch
+* 4a7c2e1 Initial commit: Added master.txt
+
+🗑️  Deleting branch: GitNewBranch
+Deleted branch GitNewBranch (was 8c1e9d5).
+
+✅ Final git status:
+On branch master
+nothing to commit, working tree clean
+
+

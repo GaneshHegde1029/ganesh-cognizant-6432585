@@ -1,0 +1,2 @@
+chmod +x Git-Branch-Merge-Setup.sh
+./Git-Branch-Merge-Setup.sh

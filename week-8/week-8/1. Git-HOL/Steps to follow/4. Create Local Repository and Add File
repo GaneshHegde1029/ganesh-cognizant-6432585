@@ -1,0 +1,10 @@
+mkdir GitDemo
+cd GitDemo
+git init
+
+
+Create a new file:
+echo "Welcome to Git Hands-On Lab!" > welcome.txt
+
+Check its contents:
+cat welcome.txt

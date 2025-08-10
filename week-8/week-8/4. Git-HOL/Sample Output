@@ -1,0 +1,69 @@
+-------------------------------------------
+🚀 Git Hands-On Lab: Merge Conflict Resolution
+-------------------------------------------
+
+📦 Initializing new repository...
+Initialized empty Git repository in /home/user/GitConflictDemo/.git/
+[master (root-commit) 1d2f3a4] Initial commit: master.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 master.txt
+
+🌱 Creating branch: GitWork
+Switched to a new branch 'GitWork'
+
+📄 Creating hello.xml in GitWork...
+[GitWork 3e4b5c6] Added hello.xml in GitWork branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.xml
+
+🔄 Switching back to master...
+Switched to branch 'master'
+
+📄 Creating conflicting hello.xml in master...
+[master 5f6a7b8] Added hello.xml in master branch (conflicting content)
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello.xml
+
+📜 Commit history (before merge):
+* 5f6a7b8 (HEAD -> master) Added hello.xml in master branch (conflicting content)
+| * 3e4b5c6 (GitWork) Added hello.xml in GitWork branch
+|/  
+* 1d2f3a4 Initial commit: master.txt
+
+🔍 CLI diff between master and GitWork:
+diff --git a/hello.xml b/hello.xml
+index 12ab34c..56cd78f 100644
+--- a/hello.xml
++++ b/hello.xml
+@@
+-<message>Hello from master branch</message>
++<message>Hello from GitWork branch</message>
+
+⚠️  P4Merge not found. Skipping visual diff.
+
+🔀 Merging GitWork into master (expecting conflict)...
+Auto-merging hello.xml
+CONFLICT (add/add): Merge conflict in hello.xml
+Automatic merge failed; fix conflicts and then commit the result.
+
+⚠️  Merge conflict detected. Use your merge tool to resolve it.
+💡 Opening hello.xml for manual conflict resolution...
+
+➕ Adding resolved hello.xml...
+[master 8a9b0c1] Resolved merge conflict between master and GitWork
+
+📝 Adding backup files to .gitignore...
+[master 2c3d4e5] Updated .gitignore to ignore backup files
+
+🗑️  Deleting merged branch: GitWork
+Deleted branch GitWork (was 3e4b5c6).
+
+📜 Commit history (after merge):
+* 2c3d4e5 (HEAD -> master) Updated .gitignore to ignore backup files
+* 8a9b0c1 Resolved merge conflict between master and GitWork
+*   5f6a7b8 Added hello.xml in master branch (conflicting content)
+|\  
+| * 3e4b5c6 Added hello.xml in GitWork branch
+|/  
+* 1d2f3a4 Initial commit: master.txt
+
